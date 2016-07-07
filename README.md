@@ -1,5 +1,5 @@
 # VHFUHFAPRS
-<b>This repository is for the VHF or UHF APRS radio board.</b>
+<b>This repository is for the VHF or UHF APRS radio board.</b><br>
 This board will have the following features.<br>
 1) Arduino nano controler.<br>
 2) VHF or UHF Radio Module.<br>
