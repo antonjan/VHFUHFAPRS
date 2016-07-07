@@ -1,0 +1,225 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:dra818v
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DRA818V U?
+U 1 1 577C0A95
+P 5300 2900
+F 0 "U?" H 5350 3000 60  0000 C CNN
+F 1 "DRA818V" H 5600 2800 60  0000 C CNN
+F 2 "" H 5350 2900 60  0000 C CNN
+F 3 "" H 5350 2900 60  0000 C CNN
+	1    5300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LFCN80_LPF U?
+U 1 1 577C10C7
+P 7000 3300
+F 0 "U?" H 6900 3550 60  0000 C CNN
+F 1 "LFCN80_LPF" H 7250 2900 60  0000 C CNN
+F 2 "" H 6950 3200 60  0000 C CNN
+F 3 "" H 6950 3200 60  0000 C CNN
+	1    7000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BNC P?
+U 1 1 577C11D4
+P 8100 3350
+F 0 "P?" H 8110 3470 50  0000 C CNN
+F 1 "BNC" V 8210 3290 50  0000 C CNN
+F 2 "" H 8100 3350 50  0000 C CNN
+F 3 "" H 8100 3350 50  0000 C CNN
+	1    8100 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3350 7950 3350
+$Comp
+L GND #PWR?
+U 1 1 577C133B
+P 7200 2900
+F 0 "#PWR?" H 7200 2650 50  0001 C CNN
+F 1 "GND" H 7200 2750 50  0000 C CNN
+F 2 "" H 7200 2900 50  0000 C CNN
+F 3 "" H 7200 2900 50  0000 C CNN
+	1    7200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 577C1355
+P 6950 3900
+F 0 "#PWR?" H 6950 3650 50  0001 C CNN
+F 1 "GND" H 6950 3750 50  0000 C CNN
+F 2 "" H 6950 3900 50  0000 C CNN
+F 3 "" H 6950 3900 50  0000 C CNN
+	1    6950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 577C1372
+P 5600 3950
+F 0 "#PWR?" H 5600 3700 50  0001 C CNN
+F 1 "GND" H 5600 3800 50  0000 C CNN
+F 2 "" H 5600 3950 50  0000 C CNN
+F 3 "" H 5600 3950 50  0000 C CNN
+	1    5600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 577C138C
+P 5450 3950
+F 0 "#PWR?" H 5450 3700 50  0001 C CNN
+F 1 "GND" H 5450 3800 50  0000 C CNN
+F 2 "" H 5450 3950 50  0000 C CNN
+F 3 "" H 5450 3950 50  0000 C CNN
+	1    5450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 577C13A6
+P 8100 3600
+F 0 "#PWR?" H 8100 3350 50  0001 C CNN
+F 1 "GND" H 8100 3450 50  0000 C CNN
+F 2 "" H 8100 3600 50  0000 C CNN
+F 3 "" H 8100 3600 50  0000 C CNN
+	1    8100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3550 8100 3600
+Wire Wire Line
+	5450 3700 5450 3950
+Wire Wire Line
+	5600 3700 5600 3950
+$Comp
+L Arduino_Nano U?
+U 1 1 577D2D93
+P 2400 3100
+F 0 "U?" H 2400 3350 60  0000 C CNN
+F 1 "Arduino_Nano" H 2400 2950 60  0000 C CNN
+F 2 "" H 2400 2950 60  0000 C CNN
+F 3 "" H 2400 2950 60  0000 C CNN
+	1    2400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 577D4AF0
+P 2000 4600
+F 0 "C?" H 2025 4700 50  0000 L CNN
+F 1 "10uF 16V" V 2150 4500 50  0000 L CNN
+F 2 "" H 2038 4450 50  0000 C CNN
+F 3 "" H 2000 4600 50  0000 C CNN
+	1    2000 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1350 3200 900  3200
+Wire Wire Line
+	900  3200 900  4600
+Wire Wire Line
+	900  4600 1850 4600
+Wire Wire Line
+	6950 3800 6950 3900
+Wire Wire Line
+	6300 3350 6500 3350
+Wire Wire Line
+	6950 2900 7200 2900
+Wire Wire Line
+	4100 1900 6400 1900
+Wire Wire Line
+	6400 1900 6400 2450
+Wire Wire Line
+	6400 2450 6300 2450
+$Comp
+L C C?
+U 1 1 577D5901
+P 2300 4750
+F 0 "C?" H 2325 4850 50  0000 L CNN
+F 1 "100nF" H 2050 4650 50  0000 L CNN
+F 2 "" H 2338 4600 50  0000 C CNN
+F 3 "" H 2300 4750 50  0000 C CNN
+	1    2300 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 577D5A1B
+P 2300 5000
+F 0 "#PWR?" H 2300 4750 50  0001 C CNN
+F 1 "GND" H 2300 4850 50  0000 C CNN
+F 2 "" H 2300 5000 50  0000 C CNN
+F 3 "" H 2300 5000 50  0000 C CNN
+	1    2300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 577D6095
+P 2650 4750
+F 0 "RV?" H 2650 4670 50  0000 C CNN
+F 1 "POT 100k" V 2750 5000 50  0000 C CNN
+F 2 "" H 2650 4750 50  0000 C CNN
+F 3 "" H 2650 4750 50  0000 C CNN
+	1    2650 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 4600 2150 4600
+Wire Wire Line
+	2650 4900 2300 4900
+Wire Wire Line
+	2300 4900 2300 5000
+Wire Wire Line
+	4100 1900 4100 4750
+Wire Wire Line
+	4100 4750 2800 4750
+$EndSCHEMATC

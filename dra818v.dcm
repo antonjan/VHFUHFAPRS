@@ -1,0 +1,25 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7002
+D 30V Vgs, 0.01A Id, N-Cannel FET Transistor, TO-92
+K N-Channel FET Transistor Low Voltage
+F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
+$ENDCMP
+#
+$CMP BF245B
+D 30V Vgs, 0.01A Id, N-Cannel FET Transistor, TO-92
+K N-Channel FET Transistor Low Voltage
+F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
+$ENDCMP
+#
+$CMP BF245C
+D 30V Vgs, 0.01A Id, N-Cannel FET Transistor, TO-92
+K N-Channel FET Transistor Low Voltage
+F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
+$ENDCMP
+#
+$CMP DRA818V
+D VHF / UHF Trancever Module
+$ENDCMP
+#
+#End Doc Library
