@@ -15,3 +15,8 @@ This board will have the following features.<br>
 12) Buld in battery charger.<br>
 13) Backup battery for APRS only.<br>
 14) Pcb will be for RF enclosed box.<br>
+<br>
+<Status><br>
+This board is developed in Kicad and the files loaded is not complete yet.
+
+
